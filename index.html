@@ -13,7 +13,9 @@
       <a-asset-item id="model" src="3D_Models/buster_drone/scene.gltf" ></a-asset-item>
     </a-assets>
   
-    <a-entity gltf-model="#model"></a-entity>
+    <a-entity gltf-model="#model">
+      <a-animation attribute="rotation" to="90 360 0"></a-animation>
+    </a-entity>
 
 
     <!-- define a camera which will move according to the marker position -->
